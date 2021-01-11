@@ -1,0 +1,110 @@
+.container {
+	height: 510px;
+	width:  510px;	
+	margin: auto;
+	background-color: grey;
+}
+
+.ukryta {
+	visibility: hidden;
+}
+
+
+
+.start {
+	margin: auto;
+	height: 50px;
+	width: 100px;
+	background-color: green;
+	text-align: center;
+	border-radius: 10px;
+}
+
+
+
+.memo-przed {
+	width: 125px;
+	height: 125px;
+	background-color: #826BA9;
+	background-image: none;
+	display: grid;
+	float: left;
+	margin: 1px;
+	border-radius:  10px;
+	transition: all 500ms;
+}
+
+
+
+.memo-po {
+	transition: all 1000ms ease;
+	transform: rotate(360deg);
+	width: 125px;
+	height: 125px;
+	background-color: #715BA9;
+	display: grid;
+	float: left;
+	margin: 1px;
+	border-radius:  10px;
+}
+
+.animation {
+	-webkit-animation: slidein 1.4s forwards;
+	-moz-transition: transform 1.5s;
+	-moz-transform-style: preserve-3d;
+	-moz-transform: rotate(180deg);
+}
+
+@keyframes slidein {
+	0%{background: radial-gradient(circle, rgba(154,28,82,1) 29%, rgba(163,51,92,1) 100%);}
+	50% {background: green;}
+	100% {background-color: grey}
+}
+
+.social {
+	background-image: url('social-group.png');
+	background-position: center;
+	background-size: contain;
+}
+
+.water {
+	background-image: url('water-drop.png');
+	background-position: center;
+	background-size: contain;
+}
+
+.localize {
+	background-image: url('location-pointer.png');
+	background-position: center;
+	background-size: contain;
+}
+
+.phone {
+	background-image: url('cell-phone.png');
+	background-position: center;
+	background-size: contain;
+}
+
+.wifi {
+	background-image: url('wi-fi.png');
+	background-position: center;
+	background-size: contain;
+}
+
+.phone2 {
+	background-image: url('phone-receiver.png');
+	background-position: center;
+	background-size: contain;
+}
+
+.home {
+	background-image: url('home-page.png');
+	background-position: center;
+	background-size: contain;
+}
+
+.play {
+	background-image: url('play-button.png');
+	background-position: center;
+	background-size: contain;
+}
